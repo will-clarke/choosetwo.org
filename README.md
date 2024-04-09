@@ -11,3 +11,7 @@ Other trilemmas:
 - Encyclopedias: authoritative, comprehensive, up-to-date
 - RAID (disk storage): fast, cheap, good
 - Distributed data stores (CAP theorem): consistency, available, partition-tolerance
+- Names in networks (Zooko's triangle): Human-meaningful, Secure, Decentralized
+- Epicurean paradox: God is omnipotent, God is omnibenevolent, Evil exists
+- Israel could be: Democratic, Jewish, in all of Palestine
+- The Globalization Paradox (Dani Rodrik): democracy, national sovereignty, global economic integration
