@@ -9,8 +9,19 @@
       .container {
         width: 60%;
         position: relative;
-        margin: 0 auto;
-        /* border: 1px dashed black; */
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          width: 100%;
+        }
+      }
+
+      @media (min-width: 769px) {
+        .container {
+          width: 60%;
+          margin: 0 auto;
+        }
       }
     </style>
   </head>
