@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 jinja2 = "*"
+pydantic = "*"
+pyyaml = "*"
 
 [dev-packages]
 
