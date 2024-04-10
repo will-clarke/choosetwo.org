@@ -1,11 +1,170 @@
-- Under communism: honest, loyal, intelligent (Slavoj Žižek)
-- Society: fair, free, equal (Steven Pinker)
-- Economics: a fixed exchange rate, national independence in monetary policy and capital mobility
-- Project management: Quick, Cheap, Good (Arthur C. Clarke)
-- Encyclopedias: authoritative, comprehensive, up-to-date
-- RAID (disk storage): fast, cheap, good
-- Distributed data stores (CAP theorem): consistency, available, partition-tolerance
-- Names in networks (Zooko's triangle): Human-meaningful, Secure, Decentralized
-- Epicurean paradox: God is omnipotent, God is omnibenevolent, Evil exists
-- Israel could be: Democratic, Jewish, in all of Palestine
-- The Globalization Paradox (Dani Rodrik): democracy, national sovereignty, global economic integration
+Life:
+  url: life
+  triangle:
+    top: Career
+    left: Family
+    right: Hobbies
+  strapline: Life is short, make a conscious decision how to spend it
+  source: ""
+Under communism:
+  url: "communism"
+  triangle:
+    top: "Honest"
+    left: "Loyal"
+    right: "Intelligent"
+  strapline: "Building a society based on collective values"
+  source: "Slavoj Žižek"
+Society:
+  url: "society"
+  triangle:
+    top: "Fair"
+    left: "Free"
+    right: "Equal"
+  strapline: "Striving for equity and justice for all"
+  source: "Steven Pinker"
+Economics:
+  url: "economics"
+  triangle:
+    top: "A fixed exchange rate"
+    left: "National independence in monetary policy"
+    right: "capital mobility"
+  strapline: "Balancing stability, autonomy, and growth"
+Project management:
+  url: "project-management"
+  triangle:
+    top: "Quick"
+    left: "Cheap"
+    right: "Good"
+  strapline: "Efficiency without compromise"
+  source: "Arthur C. Clarke"
+Encyclopedias:
+  url: "encyclopedias"
+  strapline: "Your gateway to knowledge"
+  triangle:
+    top: "Authoritative"
+    left: "Comprehensive"
+    right: "Up-to-date"
+RAID (disk storage):
+  url: "raid"
+  strapline: "Optimizing reliability and performance"
+  triangle:
+    top: "Fast"
+    left: "Cheap"
+    right: "Good"
+Distributed data stores (CAP theorem):
+  url: "cap-theorem"
+  strapline: "Navigating the trade-offs of distributed systems"
+  triangle:
+    top: "Consistency"
+    left: "Availability"
+    right: "Partition-tolerance"
+Names in networks:
+  url: "zookos-triangle"
+  triangle:
+    top: "Human-meaningful"
+    left: "Secure"
+    right: "Decentralized"
+  strapline: "Balancing usability, security, and autonomy"
+  source: Zookos
+Epicurean paradox:
+  url: "epicurean-paradox"
+  strapline: "Exploring the nature of divinity and suffering"
+  triangle:
+    top: "God is omnipotent"
+    left: "God is omnibenevolent"
+    right: "Evil exists"
+Israel:
+  url: "israel"
+  strapline: "Realizing a vision of democracy and heritage"
+  triangle:
+    top: "Democratic"
+    left: "Jewish"
+    right: "In all of Palestine"
+The Globalization Paradox:
+  url: "globalization-paradox"
+  strapline: "Navigating the tensions between democracy and global cooperation"
+  triangle:
+    top: "Democracy"
+    left: "National sovereignty"
+    right: "Global economic integration"
+  source: Dani Rodrik
+# AI GENERATED ONES:
+# - Software Development:
+#     - url: "software-development"
+#     - strapline: "Balancing speed, quality, and cost"
+#     - items:
+#         - "Fast"
+#         - "High-Quality"
+#         - "Low Cost"
+#
+# - Healthcare:
+#     - url: "healthcare"
+#     - strapline: "Navigating accessibility, quality, and affordability"
+#     - items:
+#         - "Accessible"
+#         - "High-Quality"
+#         - "Affordable"
+#
+# - Environmental Conservation:
+#     - url: "environmental-conservation"
+#     - strapline: "Finding the equilibrium between growth, protection, and equity"
+#     - items:
+#         - "Economic Growth"
+#         - "Environmental Protection"
+#         - "Social Equity"
+#
+# - Education:
+#     - url: "education"
+#     - strapline: "Striving for standardized learning, personalization, and cost-effectiveness"
+#     - items:
+#         - "Standardized"
+#         - "Individualized"
+#         - "Inexpensive"
+#
+# - Transportation:
+#     - url: "transportation"
+#     - strapline: "Balancing speed, safety, and affordability"
+#     - items:
+#         - "Speed"
+#         - "Safety"
+#         - "Affordability"
+#
+# - Work-Life Balance:
+#     - url: "work-life-balance"
+#     - strapline: "Juggling career advancement, personal well-being, and family time"
+#     - items:
+#         - "Career Advancement"
+#         - "Personal Well-being"
+#         - "Time with Family"
+#
+# - Product Design:
+#     - url: "product-design"
+#     - strapline: "Integrating functionality, aesthetics, and cost-effectiveness"
+#     - items:
+#         - "Functionality"
+#         - "Aesthetics"
+#         - "Cost-effectiveness"
+#
+# - Public Policy:
+#     - url: "public-policy"
+#     - strapline: "Striking a balance between freedom, security, and privacy"
+#     - items:
+#         - "Freedom"
+#         - "Security"
+#         - "Privacy"
+#
+# - Globalization:
+#     - url: "globalization"
+#     - strapline: "Managing economic integration, national sovereignty, and cultural identity"
+#     - items:
+#         - "Economic Integration"
+#         - "National Sovereignty"
+#         - "Cultural Identity"
+#
+# - Social Media Platforms:
+#     - url: "social-media-platforms"
+#     - strapline: "Navigating user privacy, targeted advertising, and free service"
+#     - items:
+#         - "User Privacy"
+#         - "Targeted Advertising"
+#         - "Free Service"
