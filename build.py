@@ -27,7 +27,7 @@ def read_trilemmas() -> List[Trillema]:
 
 
 environment = jinja2.Environment()
-template_string = open("template.html").read()
+template_string = open(template_path).read()
 template = environment.from_string(template_string)
 
 index = template.render(
@@ -37,4 +37,4 @@ index = template.render(
     corner_left="Family",
 )
 
-print(index)
+read_trilemmas()
