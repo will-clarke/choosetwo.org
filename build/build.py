@@ -31,22 +31,21 @@ environment = jinja2.Environment()
 template_string = open(template_path).read()
 template = environment.from_string(template_string)
 
-index = template.render(
-    h2="Life is short, make a conscious decision how to spend it",
-    corner_top="Career",
-    corner_right="Hobbies",
-    corner_left="Family",
-)
 
 trilemmas = read_trilemmas()
-for trilema in trilemmas:
+previous_url = trilemmas[-1].url
+for i, trilemma in enumerate(trilemmas):
+    next_url = trilemmas[(i + 1) % len(trilemmas)].url
     html = template.render(
-        h2=trilema.name,
-        corner_top=trilema.triangle.top,
-        corner_right=trilema.triangle.right,
-        corner_left=trilema.triangle.left,
-        strapline=trilema.strapline,
-        source=trilema.source,
+        h2=trilemma.name,
+        corner_top=trilemma.triangle.top,
+        corner_right=trilemma.triangle.right,
+        corner_left=trilemma.triangle.left,
+        strapline=trilemma.strapline,
+        source=trilemma.source,
+        previous_url=previous_url,
+        next_url=trilemma.url,
     )
-    with open(f"../{trilema.url}.html", "w") as f:
+    previous_url = trilemma.url
+    with open(f"../{trilemma.url}.html", "w") as f:
         f.write(html)
