@@ -37,14 +37,14 @@ previous_url = trilemmas[-1].url
 for i, trilemma in enumerate(trilemmas):
     next_url = trilemmas[(i + 1) % len(trilemmas)].url
     html = template.render(
-        h2=trilemma.name,
+        name=trilemma.name,
         corner_top=trilemma.triangle.top,
         corner_right=trilemma.triangle.right,
         corner_left=trilemma.triangle.left,
         strapline=trilemma.strapline,
         source=trilemma.source,
-        previous_url=previous_url + ".html",
-        next_url=trilemma.url + ".html",
+        previous_url="./" + previous_url + ".html",
+        next_url="./" + trilemma.url + ".html",
     )
     previous_url = trilemma.url
     with open(f"../{trilemma.url}.html", "w") as f:
