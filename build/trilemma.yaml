@@ -1,5 +1,5 @@
 - name: Life
-  url: life
+  url: index
   triangle:
     top: Career
     left: Family

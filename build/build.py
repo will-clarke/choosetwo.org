@@ -39,3 +39,14 @@ index = template.render(
 )
 
 trilemmas = read_trilemmas()
+for trilema in trilemmas:
+    html = template.render(
+        h2=trilema.name,
+        corner_top=trilema.triangle.top,
+        corner_right=trilema.triangle.right,
+        corner_left=trilema.triangle.left,
+        strapline=trilema.strapline,
+        source=trilema.source,
+    )
+    with open(f"../{trilema.url}.html", "w") as f:
+        f.write(html)

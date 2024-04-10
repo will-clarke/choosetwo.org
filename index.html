@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h2 {
+        text-align: center;
+      }
+      .container {
+        position: relative;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          width: 100%;
+        }
+      }
+
+      @media (min-width: 769px) {
+        .container {
+          width: 40%;
+          margin: 0 auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <svg width="100%" viewBox="0 0 100 100">
+        <polygon
+          points="50,20 85,80 15,80"
+          fill="rgb(255, 255, 255)"
+          style="stroke-width: 1.5; stroke: rgb(0, 0, 0)"
+        />
+
+        <circle cx="50" cy="20" r="2.5" />
+        <circle cx="85" cy="80" r="2.5" />
+        <circle cx="15" cy="80" r="2.5" />
+
+        <text
+          x="50"
+          y="55"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          style="font-size: 10px; fill: grey"
+        >
+          Choose
+        </text>
+
+        <text
+          x="50"
+          y="65"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          style="font-size: 16px; fill: grey"
+        >
+          Two
+        </text>
+
+        <text
+          x="50"
+          y="10"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          style="font-size: 8px"
+        >
+          Career
+        </text>
+        <text
+          x="85"
+          y="90"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          style="font-size: 8px"
+        >
+          Hobbies
+        </text>
+        <text
+          x="12"
+          y="90"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          style="font-size: 8px"
+        >
+          Family
+        </text>
+      </svg>
+    </div>
+    <h2>Life</h2>
+  </body>
+</html>
