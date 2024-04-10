@@ -1,4 +1,4 @@
-Life:
+- name: Life
   url: life
   triangle:
     top: Career
@@ -6,7 +6,7 @@ Life:
     right: Hobbies
   strapline: Life is short, make a conscious decision how to spend it
   source: ""
-Under communism:
+- name: Under communism
   url: "communism"
   triangle:
     top: "Honest"
@@ -14,7 +14,7 @@ Under communism:
     right: "Intelligent"
   strapline: "Building a society based on collective values"
   source: "Slavoj Žižek"
-Society:
+- name: Society
   url: "society"
   triangle:
     top: "Fair"
@@ -22,14 +22,15 @@ Society:
     right: "Equal"
   strapline: "Striving for equity and justice for all"
   source: "Steven Pinker"
-Economics:
+- name: Economics
   url: "economics"
   triangle:
     top: "A fixed exchange rate"
     left: "National independence in monetary policy"
     right: "capital mobility"
   strapline: "Balancing stability, autonomy, and growth"
-Project management:
+  source: ""
+- name: Project management
   url: "project-management"
   triangle:
     top: "Quick"
@@ -37,28 +38,31 @@ Project management:
     right: "Good"
   strapline: "Efficiency without compromise"
   source: "Arthur C. Clarke"
-Encyclopedias:
+- name: Encyclopedias
   url: "encyclopedias"
   strapline: "Your gateway to knowledge"
   triangle:
     top: "Authoritative"
     left: "Comprehensive"
     right: "Up-to-date"
-RAID (disk storage):
+  source: ""
+- name: RAID (disk storage)
   url: "raid"
   strapline: "Optimizing reliability and performance"
   triangle:
     top: "Fast"
     left: "Cheap"
     right: "Good"
-Distributed data stores (CAP theorem):
+  source: ""
+- name: Distributed data stores (CAP theorem)
   url: "cap-theorem"
   strapline: "Navigating the trade-offs of distributed systems"
   triangle:
     top: "Consistency"
     left: "Availability"
     right: "Partition-tolerance"
-Names in networks:
+  source: ""
+- name: Names in networks
   url: "zookos-triangle"
   triangle:
     top: "Human-meaningful"
@@ -66,21 +70,23 @@ Names in networks:
     right: "Decentralized"
   strapline: "Balancing usability, security, and autonomy"
   source: Zookos
-Epicurean paradox:
+- name: Epicurean paradox
   url: "epicurean-paradox"
   strapline: "Exploring the nature of divinity and suffering"
   triangle:
     top: "God is omnipotent"
     left: "God is omnibenevolent"
     right: "Evil exists"
-Israel:
+  source: ""
+- name: Israel
   url: "israel"
   strapline: "Realizing a vision of democracy and heritage"
   triangle:
     top: "Democratic"
     left: "Jewish"
     right: "In all of Palestine"
-The Globalization Paradox:
+  source: ""
+- name: The Globalization Paradox
   url: "globalization-paradox"
   strapline: "Navigating the tensions between democracy and global cooperation"
   triangle:

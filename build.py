@@ -14,6 +14,7 @@ class Triangle(BaseModel):
 
 
 class Trillema(BaseModel):
+    name: StrictStr
     url: StrictStr
     triangle: Triangle
     strapline: StrictStr
@@ -37,4 +38,4 @@ index = template.render(
     corner_left="Family",
 )
 
-read_trilemmas()
+trilemmas = read_trilemmas()
