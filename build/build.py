@@ -44,7 +44,7 @@ for i, trilemma in enumerate(trilemmas):
         strapline=trilemma.strapline,
         source=trilemma.source,
         previous_url="./" + previous_url + ".html",
-        next_url="./" + trilemma.url + ".html",
+        next_url="./" + next_url + ".html",
     )
     previous_url = trilemma.url
     with open(f"../{trilemma.url}.html", "w") as f:
