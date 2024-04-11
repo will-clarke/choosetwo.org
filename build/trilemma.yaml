@@ -5,6 +5,7 @@
     left: Family
     right: Hobbies
   strapline: Life is short, make a conscious decision how to spend it
+  font_size: 8px
   source: ""
 - name: Under communism
   url: "communism"
@@ -13,6 +14,7 @@
     left: "Loyal"
     right: "Intelligent"
   strapline: "Building a society based on collective values"
+  font_size: 8px
   source: "Slavoj Žižek"
 - name: Society
   url: "society"
@@ -21,6 +23,7 @@
     left: "Free"
     right: "Equal"
   strapline: "Striving for equity and justice for all"
+  font_size: 8px
   source: "Steven Pinker"
 - name: Economics
   url: "economics"
@@ -29,6 +32,7 @@
     left: "National independence in monetary policy"
     right: "capital mobility"
   strapline: "Balancing stability, autonomy, and growth"
+  font_size: 2px
   source: ""
 - name: Project management
   url: "project-management"
@@ -37,6 +41,7 @@
     left: "Cheap"
     right: "Good"
   strapline: "Efficiency without compromise"
+  font_size: 8px
   source: "Arthur C. Clarke"
 - name: Encyclopedias
   url: "encyclopedias"
@@ -46,9 +51,11 @@
     left: "Comprehensive"
     right: "Up-to-date"
   source: ""
+  font_size: 8px
 - name: RAID (disk storage)
   url: "raid"
   strapline: "Optimizing reliability and performance"
+  font_size: 8px
   triangle:
     top: "Fast"
     left: "Cheap"
@@ -62,6 +69,7 @@
     left: "Availability"
     right: "Partition-tolerance"
   source: ""
+  font_size: 6px
 - name: Names in networks
   url: "zookos-triangle"
   triangle:
@@ -69,6 +77,7 @@
     left: "Secure"
     right: "Decentralized"
   strapline: "Balancing usability, security, and autonomy"
+  font_size: 5px
   source: Zookos
 - name: Epicurean paradox
   url: "epicurean-paradox"
@@ -78,6 +87,7 @@
     left: "God is omnibenevolent"
     right: "Evil exists"
   source: ""
+  font_size: 3px
 - name: Israel
   url: "israel"
   strapline: "Realizing a vision of democracy and heritage"
@@ -86,6 +96,7 @@
     left: "Jewish"
     right: "In all of Palestine"
   source: ""
+  font_size: 4px
 - name: The Globalization Paradox
   url: "globalization-paradox"
   strapline: "Navigating the tensions between democracy and global cooperation"
@@ -94,6 +105,7 @@
     left: "National sovereignty"
     right: "Global economic integration"
   source: Dani Rodrik
+  font_size: 5px
 # AI GENERATED ONES:
 # - Software Development:
 #     - url: "software-development"

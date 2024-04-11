@@ -19,6 +19,7 @@ class Trillema(BaseModel):
     triangle: Triangle
     strapline: StrictStr
     source: Optional[StrictStr]
+    font_size: StrictStr
 
 
 def read_trilemmas() -> List[Trillema]:
@@ -43,6 +44,7 @@ for i, trilemma in enumerate(trilemmas):
         corner_left=trilemma.triangle.left,
         strapline=trilemma.strapline,
         source=trilemma.source,
+        font_size=trilemma.font_size,
         previous_url="./" + previous_url + ".html",
         next_url="./" + next_url + ".html",
     )
