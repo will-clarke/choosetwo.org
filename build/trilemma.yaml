@@ -14,7 +14,7 @@
     left: "Loyal"
     right: "Intelligent"
   strapline: "Building a society based on collective values"
-  font_size: 8px
+  font_size: 6px
   source: "Slavoj Žižek"
 - name: Society
   url: "society"
@@ -28,9 +28,9 @@
 - name: Economics
   url: "economics"
   triangle:
-    top: "A fixed exchange rate"
-    left: "National independence in monetary policy"
-    right: "capital mobility"
+    top: "Fixed exchange rate"
+    left: "National independence"
+    right: "Capital mobility"
   strapline: "Balancing stability, autonomy, and growth"
   font_size: 2px
   source: ""
@@ -51,7 +51,7 @@
     left: "Comprehensive"
     right: "Up-to-date"
   source: ""
-  font_size: 8px
+  font_size: 5px
 - name: RAID (disk storage)
   url: "raid"
   strapline: "Optimizing reliability and performance"
@@ -69,7 +69,7 @@
     left: "Availability"
     right: "Partition-tolerance"
   source: ""
-  font_size: 6px
+  font_size: 5px
 - name: Names in networks
   url: "zookos-triangle"
   triangle:
@@ -87,7 +87,7 @@
     left: "God is omnibenevolent"
     right: "Evil exists"
   source: ""
-  font_size: 3px
+  font_size: 2px
 - name: Israel
   url: "israel"
   strapline: "Realizing a vision of democracy and heritage"
@@ -105,7 +105,7 @@
     left: "National sovereignty"
     right: "Global economic integration"
   source: Dani Rodrik
-  font_size: 5px
+  font_size: 2px
 # AI GENERATED ONES:
 # - Software Development:
 #     - url: "software-development"
